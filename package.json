@@ -7,7 +7,7 @@
     "gatsby"
   ],
   "scripts": {
-    "dev": "rm -rf .cache && gatsby develop",
+    "dev": "gatsby develop",
     "start": "gatsby develop",
     "build": "gatsby build",
     "serve": "gatsby serve",
@@ -16,6 +16,7 @@
   "dependencies": {
     "@gsap/react": "^2.1.2",
     "@react-icons/all-files": "^4.1.0",
+    "@tailwindcss/postcss": "^4.1.18",
     "autoprefixer": "^10.4.17",
     "classnames": "^2.5.1",
     "countup.js": "^2.8.0",
@@ -37,6 +38,7 @@
     "react-dom": "^18.2.0",
     "react-syntax-highlighter": "^15.6.1",
     "sass": "^1.70.0",
+    "sharp": "^0.34.5",
     "tailwindcss": "^3.4.1",
     "three": "^0.161.0"
   }
