@@ -43,14 +43,14 @@ const IndexPage = () => {
           <div className="w-[90svw] banner-holder z-50 pt-[100px] sm:pointer-events-none fixed flex justify-center items-center">
             <h1 className="banner-title flex text-[var(--tw-text-gray-primary)] flex-col items-end h-full text-right font-bold w-[300px] flex-shrink-0">
               <ScrambleText
-                text="Cesar"
+                text="Sumit"
                 className="scramble-text min-w-[400px]"
                 duration={3}
                 placeholder="."
               />
 
               <ScrambleText
-                text="Oliveira"
+                text="Das"
                 className="scramble-text min-w-[400px]"
                 duration={3}
                 placeholder="."
@@ -59,16 +59,16 @@ const IndexPage = () => {
             <span className="w-[420px]"> </span>
             <div className="banner-description w-[350px] mt-[0px] text-left 2xl:mt-[-30px] flex justify-end flex-col pl-[80px] items-start">
               <p className="mb-4 sm:mb-7">
-                A{" "}
+                An{" "}
                 <strong className="text-[var(--tw-text-gray-primary)] font-bold">
                   <ScrambleText
-                    text="Front-end Engineer"
+                    text="MBA Candidate & Full-Stack Developer"
                     className="scramble-text inline-block"
                     duration={2}
                     placeholder="."
                   />
                 </strong>{" "}
-                having fun crafting digital experiences
+                crafting data-driven digital solutions
               </p>
               <Shortcut text="to start" />
             </div>
@@ -91,9 +91,9 @@ const IndexPage = () => {
               className="scramble-text"
               duration={2}
             />
-            <a className="underline " href="mailto:contact@cesarolvr.com">
+            <a className="underline " href="mailto:linkme.das@gmail.com">
               <ScrambleText
-                text={`contact@cesarolvr.com`}
+                text={`linkme.das@gmail.com`}
                 className="scramble-text"
                 duration={2}
               />
@@ -139,4 +139,4 @@ const IndexPage = () => {
 
 export default IndexPage;
 
-export const Head = () => <title>cesarolvr</title>;
+export const Head = () => <title>Sumit Das | MBA Candidate & Full-Stack Developer</title>;

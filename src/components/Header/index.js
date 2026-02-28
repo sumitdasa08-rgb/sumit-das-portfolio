@@ -26,13 +26,13 @@ const Header = ({ onThemeChange, theme, disableScramble = false }) => {
               <small className="sm:text-[18px] text-[14px]">
                 {!isMobile ? (
                   <ScrambleText
-                    text={`São Paulo, Brazil`}
+                    text={`Guwahati, Assam, India`}
                     className="scramble-text"
                     duration={3}
                   />
                 ) : (
                   <ScrambleText
-                    text={`Brazil`}
+                    text={`Guwahati, India`}
                     className="scramble-text"
                     duration={3}
                   />
@@ -91,13 +91,13 @@ const Header = ({ onThemeChange, theme, disableScramble = false }) => {
         <Link to="/">
           {!disableScramble ? (
             <ScrambleText
-              text="cesarolvr.com"
+              text="sumitdas.com"
               className="scramble-text"
               placeholder="*"
               duration={2.5}
             />
           ) : (
-            <>cesarolvr.com</>
+            <>sumitdas.com</>
           )}
         </Link>
       </div>
@@ -139,7 +139,7 @@ const Header = ({ onThemeChange, theme, disableScramble = false }) => {
         </li>
 
         <li>
-          <a href="https://github.com/cesarolvr/" target="_blank">
+          <a href="https://github.com/SUMITDAS-GIT/" target="_blank">
             {!disableScramble ? (
               <ScrambleText
                 text="Experiments"

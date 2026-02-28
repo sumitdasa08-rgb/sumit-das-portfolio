@@ -3,8 +3,8 @@
  */
 module.exports = {
   siteMetadata: {
-    title: `cesarolvr`,
-    siteUrl: `https://www.cesarolvr.com`,
+    title: `Sumit Das`,
+    siteUrl: `https://www.sumitdas.com`,
   },
   plugins: [
     `gatsby-plugin-postcss`,
@@ -42,8 +42,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: "cesarolvr.com",
-        short_name: "cesarolvr",
+        name: "sumitdas.com",
+        short_name: "sumitdas",
         start_url: "/",
         background_color: "#222222",
         theme_color: "#222222",

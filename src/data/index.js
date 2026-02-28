@@ -11,100 +11,108 @@ import { FiMail } from "@react-icons/all-files/fi/FiMail";
 import { FiCoffee } from "@react-icons/all-files/fi/FiCoffee";
 
 // Files
-import cesarolvrCV from "../files/cesar-oliveira-resume.pdf";
+import sumitdasCV from "../files/sumit-das-resume.pdf";
 
-const bioDescription = `A decade of experience as a Software Engineer (Front-end focused), working on
-large-scale and high-impact projects for digital companies, where
-I've crafted digital acquisition experiences, dashboards,
-awwwards-like websites, design systems, animations libraries,
-mobile apps and email marketing tools. I'm really focused about resolve real problems through technology,
-specifically web development and creative development.`;
+const bioDescription = `MBA Candidate with 4+ years of experience in operations, MIS reporting, web design, and data analytics.
+I've delivered 25–40 responsive web projects with 20–35% higher user engagement; optimized financial reporting efficiency by 20%
+and created 10+ interactive dashboards at Indian Oil Corporation. Specializing in Supply Chain & Operations, Digital Marketing,
+Advanced Data Analytics, and Financial Analysis. Co-founded two tech ventures: MMStorage (cloud storage platform) and Technologiya (technology services).
+Passionate about solving real-world problems through data-driven insights, strategic thinking, and innovative digital solutions.`;
 
 const careerPath = [
   {
-    role: "Senior Software Engineer",
-    details: `WithClutch | San Francisco, USA | 2025 -> current`,
+    role: "Founder",
+    details: `Technologiya | Guwahati, Assam, India | Feb 2026 -> Present`,
   },
   {
-    role: "Lead Software Engineer",
-    details: `Itaú Unibanco | São Paulo, Brazil | 2023 -> 2025`,
+    role: "Co-Founder & Website Maintainer",
+    details: `MMStorage (Cloud Storage Platform) | Remote | Feb 2026 -> Present`,
   },
   {
-    role: "Senior Front-end Engineer",
-    details: `Red Ventures | Charlotte, USA | 2018 -> 2023`,
-  },
-
-  {
-    role: "Front-end Engineer",
-    details: `Shawee | São Paulo, Brazil | 2017 -> 2018`,
+    role: "Admin Assistant",
+    details: `Vantage Info | Guwahati, India | 2025 -> 2026`,
   },
   {
-    role: "Front-end Engineer",
-    details: `Horizon Four | São Paulo, Brazil | 2017 -> 2018`,
+    role: "Freelance Web Designer",
+    details: `Self-Employed | Remote | Jan 2022 -> Present`,
   },
   {
-    role: "A ”Handyman Engineer”",
-    details: `Ag. Empreendora | São Paulo, Brazil | 2016 -> 2017`,
+    role: "Internship – ERP/SAP Process Support",
+    details: `Kaapro Management Solutions Pvt Ltd | Guwahati, India | Mar 2025 -> Sep 2025`,
+  },
+  {
+    role: "Advanced Data Analytics Consultant",
+    details: `Ms. Basanti Store | Guwahati, India | Apr 2024 -> Present`,
+  },
+  {
+    role: "Account Assistant",
+    details: `Indian Oil Corporation Limited | Bamunimaidan, Guwahati, India | Mar 2024 -> Mar 2025`,
+  },
+  {
+    role: "Independent Financial Records & Reporting",
+    details: `Freelance / Independent | Remote | Jan 2023 -> Dec 2023`,
   },
 ];
 
 const academyPath = [
   {
-    role: "MicroMaster® Program in Algorithms and Data Structures",
-    details: `University of California, San Diego (UCSD) | California, USA | 2024 -> 2025`,
+    role: "Master of Business Administration (MBA) – Dual Specialization",
+    details: `Logistics, Material & Supply Chain Management | Digital Marketing | Currently Pursuing (Feb 2026)`,
   },
   {
-    role: "Postgraduate Diploma (PgDip) in Leadership and Innovation",
-    details: `Getulio Vargas Foundation (FGV) | São Paulo, Brazil | 2023 -> 2024`,
+    role: "Bachelor of Commerce (Hons)",
+    details: `Gauhati University | Guwahati, Assam, India | 2019 -> 2022 | CGPA: 8.05`,
   },
   {
-    role: "Summer Programm in Usability Engineering",
-    details: `University of São Paulo (USP) | São Paulo, Brazil | 2017 -> 2018`,
+    role: "Post Graduate Diploma in Computer Applications (PGDCA)",
+    details: `Assam | 2019 | Grade: A`,
   },
   {
-    role: "Bachelor (BA) in Digital design",
-    details: `Anhembi Morumbi University (UAM) | São Paulo, Brazil | 2016 -> 2019`,
+    role: "Higher Secondary (XII) – AHSEC | Commerce Stream",
+    details: `Guwahati, Assam, India | 2019 | 70.60%`,
   },
   {
-    role: "Career and Technical Education (CTE) in Information Systems",
-    details: `São Paulo State Technical School (ETEC) | São Paulo, Brazil | 2013 -> 2015`,
+    role: "Matriculation (X) – CBSE",
+    details: `South Point School, Guwahati | 2017 | CGPA: 7.8`,
+  },
+  {
+    role: "Diploma in Fine Arts and Crafts",
+    details: `Assam Fine Arts and Crafts Society | 2005 -> 2015`,
   },
 ];
 
 const openSourcePath = [
   {
     role: "My Github",
-    link: `https://github.com/cesarolvr`,
+    link: `https://github.com/SUMITDAS-GIT`,
   },
 ];
 
 const volunteeringPath = [
   {
-    role: "Community Builder",
-    details: `Nerdzão | São Paulo, Brazil | 2017 -> 2018`,
-    description: `- Contribute to create +15 of technology events/meetup in the town
-    - Promoted +5 talks/meetup across the country`,
-  },
-  {
-    role: "Teaching Assistant",
-    details: `{reprograma} | São Paulo, Brazil | 2018`,
-    description: `- Contributed as a teacher's assistant, clearing up some tech student issues about web development
-    - +10 new developers (women) formed and inserted into the industry`,
+    role: "SEBI Investor Certification",
+    details: `Stock Valuation & Index Funds | 2024-2025`,
+    description: `- Obtained certification in financial investments and stock market analysis`,
   },
 ];
-
 const hackingPath = [
   {
-    role: "journeylog.app",
-    details: `Habit tracker app | 2025`,
-    description: `-> React, Next.js, Supabase, Deno, TailwindCSS, Serverless functions, Figma and Vercel`,
-    link: `https://www.journeylog.app/`,
+    role: "Technologiya",
+    details: `Technology Service Brand | Feb 2026 -> Present`,
+    description: `-> Modern technology service platform delivering device, computer, and digital solutions with custom pricing models`,
+    link: `https://technologiya.com/`,
   },
   {
-    role: "murphy.js",
-    details: `A scroll based animation library | 2022`,
-    description: `-> VanillaJS, Intersection Observer API, Web Animations API and Nextra`,
-    link: `https://www.murphyjs.org/`,
+    role: "MMStorage",
+    details: `Cloud Storage Platform | Feb 2026 -> Present`,
+    description: `-> Co-founded cloud storage platform offering free 10 GB tier with intuitive digital interface and seamless UX`,
+    link: `https://mmstorage.com/`,
+  },
+  {
+    role: "Personal AI Assistant – Jarvis",
+    details: `Google Gemini API Project | 2025`,
+    description: `-> Built personal AI assistant using Google Gemini API with NLP for task automation and information retrieval`,
+    link: `https://github.com/SUMITDAS-GIT`,
   },
 ];
 
@@ -114,55 +122,43 @@ const quickActionList = [
     nick: "c",
     icon: <FiCopy />,
     type: 1,
-    textToCopy: "https://cesarolvr.com",
+    textToCopy: "https://sumitdas.com",
   },
   {
     text: "Download CV",
     nick: "d",
     icon: <FiDownload />,
-    target: cesarolvrCV,
+    target: sumitdasCV,
   },
   {
     text: "Know my career",
     nick: "k",
     icon: <FiAward />,
-    target: "https://www.linkedin.com/in/cesarolvr/",
+    target: "https://www.linkedin.com/in/sumit-das-08dec2000/",
   },
   {
     text: "See my github",
     nick: "g",
     icon: <FiGithub />,
-    target: "https://github.com/cesarolvr/",
-  },
-  {
-    text: "Book a meeting",
-    nick: "b",
-    icon: <FiCalendar />,
-    target: "https://meet.google.com/",
+    target: "https://github.com/SUMITDAS-GIT/",
   },
   {
     text: "Send an email",
     nick: "e",
     icon: <FiMail />,
-    target: "mailto:contact@cesarolvr.com",
+    target: "mailto:linkme.das@gmail.com",
   },
   {
-    text: "Follow me on instagram",
-    nick: "g",
-    icon: <FiInstagram />,
-    target: "https://www.instagram.com/cesarolvr/",
-  },
-  {
-    text: "See my current readings",
-    nick: "r",
-    icon: <FiBook />,
-    target: "https://goodreads.com/cesarolvr",
+    text: "Call me",
+    nick: "p",
+    icon: <FiCalendar />,
+    target: "tel:+918812910655",
   },
   {
     text: "View source code",
-    nick: "r",
+    nick: "s",
     icon: <FiCoffee />,
-    target: "https://github.com/cesarolvr/cesarolvr-www",
+    target: "https://github.com/SUMITDAS-GIT/portfolio",
   },
 ];
 
